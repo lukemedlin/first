@@ -13,12 +13,12 @@
 }
 
 /* --List items-- */
-.nav-item {
+#nav-list li {
     float: left;
 }
 
 /* --Anchor href-- */
-li a {
+#nav-list a{
     display: block;
     color: #000000;
     text-align: center;
@@ -27,6 +27,33 @@ li a {
 }
 
 /* --Anchor href hover-- */
-li a:hover {
+a:hover {
     background-color: #0d7daa;
+}
+
+input[type=text], input[type=number] {
+    background-color: blueviolet;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    background-color: green;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+
+p::selection {
+    background-color: green;
+    color: white;
+}
+
+@media (min-width: 500px) {
+        p {
+        padding: 40px;
+    }
 }
