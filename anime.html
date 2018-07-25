@@ -2,52 +2,64 @@
 <html>
     <head>
         <title>Anime</title>
-        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="styles.css">-->
     </head>
 
     <body>
         <!--NAVIGATION BAR-->
-        <ul id="nav-list">
-            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="./games.html">Games</a></li>
-            <li class="nav-item"><a class="nav-link" href="./anime.html">Anime</a></li>
-            <li class="nav-item"><a class="nav-link" href="./weather.html">Weather</a></li>
-            <li class="nav-item"><a class="nav-link" href="./stocks.html">Stocks</a></li>
-            <li class="nav-item"><a class="nav-link" href="./hello.html">DANGER</a></li>
-        </ul>
+        <nav class="nav nav-pills nav-justified">
+            <a class="nav-link nav-item" href="./index.html">Home</a></li>
+            <a class="nav-link nav-item" href="./games.html">Games</a></li>
+            <a class="nav-link nav-item active" href="./anime.html">Anime</a></li>
+            <a class="nav-link nav-item" href="./weather.html">Weather</a></li>
+            <a class="nav-link nav-item" href="./stocks.html">Stocks</a></li>
+            <a class="nav-link nav-item disabled" href="./hello.html">DANGER</a></li>
+        </nav>
         <h2>Table of Contents</h2>
         <ul>
             <li><a href="#section1">Section 1</a></li>
             <li><a href="#section2">Section 2</a></li>
             <li><a href="#section3">Section 3</a></li>
         </ul>
-        <h2 id="section1">Section 1</h2>
-        <p style="padding:40px;">
-            Assum autem autem tot eius, praesentium resipiscet elit, mus ea tempora regula
-            mus ea tempora regula legationis te dignus mi ruinae porro status. Ut eget d
-            liber quidem, odio vivamus certitudinem neglexi regalia nisi at victima ad eu 
-            numerus manebim us. Eget nibh metus nobis mi assecuratione et indirecte velit
-            quod facile forsan ad stilum nulla parietes. Cognomina nisl gestarum sentiebat
-            sed maiestas, orci mi culpa est italiom prandium licita modi mi vel regulam.
-        </p>
-        <h2 id="section2">Section 2</h2>
-        <p>
-            Assum autem autem tot eius, praesentium resipiscet elit, mus ea tempora regula
-            mus ea tempora regula legationis te dignus mi ruinae porro status. Ut eget d
-            liber quidem, odio vivamus certitudinem neglexi regalia nisi at victima ad eu 
-            numerus manebim us. Eget nibh metus nobis mi assecuratione et indirecte velit
-            quod facile forsan ad stilum nulla parietes. Cognomina nisl gestarum sentiebat
-            sed maiestas, orci mi culpa est italiom prandium licita modi mi vel regulam.
-        </p>
-        <h2 id="section3">Section 3</h2>
-        <p>
-            Assum autem autem tot eius, praesentium resipiscet elit, mus ea tempora regula
-            mus ea tempora regula legationis te dignus mi ruinae porro status. Ut eget d
-            liber quidem, odio vivamus certitudinem neglexi regalia nisi at victima ad eu 
-            numerus manebim us. Eget nibh metus nobis mi assecuratione et indirecte velit
-            quod facile forsan ad stilum nulla parietes. Cognomina nisl gestarum sentiebat
-            sed maiestas, orci mi culpa est italiom prandium licita modi mi vel regulam.
-        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 id="section1">Section 1</h2>
+                    <p>
+                        Assum autem autem tot eius, praesentium resipiscet elit, mus ea tempora regula
+                        mus ea tempora regula legationis te dignus mi ruinae porro status. Ut eget d
+                        liber quidem, odio vivamus certitudinem neglexi regalia nisi at victima ad eu 
+                        numerus manebim us. Eget nibh metus nobis mi assecuratione et indirecte velit
+                        quod facile forsan ad stilum nulla parietes. Cognomina nisl gestarum sentiebat
+                        sed maiestas, orci mi culpa est italiom prandium licita modi mi vel regulam.
+                    </p>
+                </div>
+                <div class="col">
+                    <h2 id="section2">Section 2</h2>
+                    <p>
+                        Assum autem autem tot eius, praesentium resipiscet elit, mus ea tempora regula
+                        mus ea tempora regula legationis te dignus mi ruinae porro status. Ut eget d
+                        liber quidem, odio vivamus certitudinem neglexi regalia nisi at victima ad eu 
+                        numerus manebim us. Eget nibh metus nobis mi assecuratione et indirecte velit
+                        quod facile forsan ad stilum nulla parietes. Cognomina nisl gestarum sentiebat
+                        sed maiestas, orci mi culpa est italiom prandium licita modi mi vel regulam.
+                    </p>
+                </div>
+                    <div class="col">
+                    <h2 id="section3">Section 3</h2>
+                    <p>
+                        Assum autem autem tot eius, praesentium resipiscet elit, mus ea tempora regula
+                        mus ea tempora regula legationis te dignus mi ruinae porro status. Ut eget d
+                        liber quidem, odio vivamus certitudinem neglexi regalia nisi at victima ad eu 
+                        numerus manebim us. Eget nibh metus nobis mi assecuratione et indirecte velit
+                        quod facile forsan ad stilum nulla parietes. Cognomina nisl gestarum sentiebat
+                        sed maiestas, orci mi culpa est italiom prandium licita modi mi vel regulam.
+                    </p>
+                </div>
+            </div>
+        </div
         <form>
             <div>
                 <input name="name" type="text" placeholder="Name">
@@ -75,5 +87,8 @@
 
             <button>sick button</button>
         </form>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
     </body>
 </html>

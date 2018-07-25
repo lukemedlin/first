@@ -57,3 +57,14 @@ p::selection {
         padding: 40px;
     }
 }
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.item {
+    width: 400px;
+    margin: autso;
+}
